@@ -1,0 +1,464 @@
+@font-face {
+  font-family: "KnockoutHTF49-Liteweight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf"), url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf");
+}
+
+@font-face {
+  font-family: "KnockoutHTF48-Featherweight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf"), url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf");
+}
+
+@font-face {
+  font-family: "KnockoutHTF29-JuniorLiteweigh";
+  font-style: normal;
+  font-weight: normal;
+  src: url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf"), url("/web/20140519004522/http://degondatrupe.com/fonts/KNOCK29J.ttf");
+}
+
+body {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-footer.jpg") no-repeat scroll center bottom transparent;
+     font-family: georgia;
+     padding-bottom: 275px;
+}
+
+a {
+     color: #D53535;
+     text-decoration: underline;
+}
+
+p {
+     color: #8F8F8F;
+     line-height: 1.5;
+     margin: 0px 20px 15px;
+}
+
+.fineprint {
+     font-size: 0.7em;
+}
+
+#global-wrap {
+    
+}
+
+#header {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu-shadow.png") repeat-x scroll center bottom transparent;
+     padding: 0px 0px 13px;
+     position: fixed;
+     top: -115px;
+     width: 100%;
+     z-index: 100;
+}
+
+#header .wrap {
+     background: none repeat scroll 0px 0px #FFFFFF;
+     width: auto;
+}
+
+#rsvp {
+      height: 95px;
+     font-family: 'KnockoutHTF49-Liteweight';
+      padding: 20px 0px 0px 150px;
+     font-size: 14px;
+     text-align: left;
+     text-transform: uppercase;
+}
+
+#menu {
+     height: 70px;
+     margin: 0px auto;
+     width: 1000px;
+}
+
+#menu .nav {
+     list-style: none outside none;
+     margin: 0px auto;
+     overflow: hidden;
+     width: 925px;
+}
+
+#menu .nav li {
+     display: inline;
+     float: left;
+     margin: 22px 49px 0px 0px;
+}
+
+#menu .nav li.last {
+     margin: 22px 0px 0px;
+}
+
+#menu .nav li a {
+     display: block;
+     height: 0px;
+     overflow: hidden;
+     padding-top: 30px;
+}
+
+#menu #nav-logo a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -130px -18px transparent;
+     width: 25px;
+}
+
+#menu #nav-our-story a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -183px -22px transparent;
+     width: 75px;
+}
+
+#menu #nav-photos a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -280px -22px transparent;
+     width: 55px;
+}
+
+#menu #nav-groomsment a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -365px -22px transparent;
+     width: 83px;
+}
+
+#menu #nav-bridesmaid a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -480px -22px transparent;
+     width: 90px;
+}
+
+#menu #nav-info a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -597px -22px transparent;
+     width: 119px;
+}
+
+#menu #nav-gifts a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -744px -22px transparent;
+     width: 40px;
+}
+
+#menu #nav-rsvp a {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-menu.png") no-repeat scroll -810px -22px transparent;
+     width: 35px;
+}
+
+.slideshow .jcarousel-prev {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/icon-arrow-left.png") no-repeat scroll 0px 0px transparent;
+     cursor: pointer;
+     display: block;
+     height: 45px;
+     left: -20px;
+     position: absolute;
+     top: 230px;
+     width: 23px;
+     z-index: 2;
+}
+
+.slideshow .jcarousel-prev:hover {
+      opacity: 0.8; /* Firefox, Safari and Chrome (WebKit), Opera */
+      filter: alpha(opacity=80); /* IE */
+      zoom: 1; /* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+} 
+
+.slideshow .jcarousel-next {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/icon-arrow-right.png") no-repeat scroll 0px 0px transparent;
+     cursor: pointer;
+     display: block;
+     height: 45px;
+     position: absolute;
+     right: -20px;
+     top: 230px;
+     width: 23px;
+     z-index: 2;
+}
+
+.slideshow .jcarousel-next:hover {
+      opacity: 0.8; /* Firefox, Safari and Chrome (WebKit), Opera */
+      filter: alpha(opacity=80); /* IE */
+      zoom: 1; /* set "zoom", "width" or "height" to trigger "hasLayout" in IE 7 and lower */
+}
+
+
+.slideshow-control {
+     list-style: none outside none;
+     margin: 0px auto;
+     overflow: auto;
+     width: 425px;
+}
+
+.slideshow-control li {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-nav-circles.png") no-repeat scroll 0px 0px transparent;
+     color: #2E2E2E;
+     cursor: pointer;
+     display: inline;
+     float: left;
+     font-family: 'KnockoutHTF49-Liteweight';
+     font-size: 11px;
+     height: 20px;
+     line-height: 20px;
+     margin: 0px 10px 0px 0px;
+     text-align: center;
+     width: 20px;
+}
+
+.slideshow-control li:hover, .slideshow-control li.active {
+     background-position: 0px -20px;
+     color: #FFFFFF;
+}
+
+.wrap {
+     margin: 0px auto;
+     overflow: hidden;
+     padding: 0px 0px 15px;
+     position: relative;
+     text-align: center;
+     width: 1000px;
+}
+
+.section {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-section.png") repeat-x scroll 0px 396px transparent;
+     padding: 110px 0px 50px;
+     position: relative;
+}
+
+#section-1 {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/banner-2.png") no-repeat scroll center 67px #CFCFCF;
+     height: 563px;
+     padding-top: 15px;
+}
+
+#section-1 .wrap {
+     padding: 505px 150px 110px 105px;
+     position: static;
+}
+
+#section-1 .rsvp-link {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/btn-rsvp.png") repeat scroll 0px 0px transparent;
+     display: block;
+     height: 0px;
+     margin: 0px auto;
+     overflow: hidden;
+     padding-top: 82px;
+     width: 100px;
+}
+
+#section-2 {
+     background: none repeat scroll 0px 0px transparent;
+}
+
+#section-3 {
+    
+}
+
+#section-3 .slideshow {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-photo-frame.png") no-repeat scroll 0px 0px transparent;
+     height: 505px;
+     margin: 0px auto;
+     padding: 30px;
+     width: 853px;
+}
+
+#section-3 .slideshow li {
+     height: 505px;
+     list-style: none outside none;
+     width: 853px;
+}
+
+#section-4 h2, #section-5 h2 {
+     left: 400px;
+     position: absolute;
+     top: 0px;
+}
+
+#section-4 .slideshow, #section-5 .slideshow {
+     height: 475px;
+     margin: 0px auto;
+     padding: 0px 20px 0px 10px;
+     width: 770px;
+}
+
+#section-4 .slideshow li, #section-5 .slideshow li {
+     height: 475px;
+     list-style: none outside none;
+     position: relative;
+     width: 770px;
+}
+
+#section-4 .slideshow .jcarousel-prev, #section-5 .slideshow .jcarousel-prev {
+     top: 275px;
+}
+
+#section-4 .slideshow .jcarousel-next, #section-5 .slideshow .jcarousel-next {
+     top: 275px;
+}
+
+#section-4 .slideshow .photo, #section-5 .slideshow .photo {
+     bottom: 0px;
+     left: 50px;
+     position: absolute;
+}
+
+#section-4 .slideshow .person, #section-5 .slideshow .person {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-groomsmen.png") no-repeat scroll 0px 0px transparent;
+     bottom: 7px;
+     height: 246px;
+     padding: 25px 50px 40px 70px;
+     position: absolute;
+     right: 0px;
+     text-align: left;
+     width: 428px;
+}
+
+#section-4 .slideshow .person .name, #section-5 .slideshow .person .name {
+     color: #555555;
+     font-size: 30px;
+     font-style: italic;
+     margin: 0px 0px 5px;
+}
+
+#section-4 .slideshow .person .title, #section-5 .slideshow .person .title {
+     color: #999999;
+     font-size: 18px;
+}
+
+#section-4 .slideshow .person .bio, #section-5 .slideshow .person .bio {
+     color: #8F8F8F;
+     font-size: 12px;
+     line-height: 1.5;
+     margin: 30px 0px 0px;
+}
+
+#section-4 {
+    
+}
+
+#section-4 .slideshow .item-1 .photo {
+    
+}
+
+#section-4 .slideshow .item-2 .photo {
+     left: 60px;
+}
+
+#section-4 .slideshow .item-3 .photo {
+     left: 40px;
+}
+
+#section-4 .slideshow .item-4 .photo {
+     left: 20px;
+}
+
+#section-4 .slideshow .item-5 .photo {
+     bottom: 110px;
+     left: 10px;
+}
+
+#section-4 .slideshow .item-6 .photo {
+     left: 42px;
+}
+
+#section-5 {
+    
+}
+
+#section-5 .slideshow-control li:hover, #section-5 .slideshow-control li.active {
+     background-position: 0px -40px;
+     color: #FFFFFF;
+}
+
+#section-5 .slideshow .item-1 .photo {
+    
+}
+
+#section-5 .slideshow .item-2 .photo {
+    
+}
+
+#section-5 .slideshow .item-3 .photo {
+     left: 0px;
+}
+
+#section-5 .slideshow .item-4 .photo {
+     left: 30px;
+}
+
+#section-5 .slideshow .item-5 .photo {
+     bottom: 110px;
+     left: 0px;
+}
+
+#section-5 .slideshow .item-6 .photo {
+    
+}
+
+#section-5 .slideshow .person {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-bridesmaids.png") no-repeat scroll 0px 0px transparent;
+}
+
+#section-6 {
+     background: none repeat scroll 0px 0px transparent;
+}
+
+.box1-top {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box1-top.png") no-repeat scroll center top transparent;
+     margin: 0px auto 15px;
+     padding: 135px 0px 0px;
+     position: relative;
+     width: 739px;
+}
+
+.box1-middle {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box1-middle.png") repeat-y scroll center bottom transparent;
+     min-height: 50px;
+     padding: 15px 80px 5px;
+}
+
+.box1-bottom {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box1-bottom.png") no-repeat scroll center bottom transparent;
+     margin: 0px auto;
+     padding: 0px 0px 86px;
+     width: 731px;
+}
+
+#section-6 h3 {
+     color: #FFF;
+     font-family: 'KnockoutHTF48-Featherweight';
+     font-size: 40px;
+     line-height: 40px;
+     position: absolute;
+     text-transform: uppercase;
+     top: 70px;
+     width: 579px;
+}
+
+#section-7 {
+     background: none repeat scroll 0px 0px transparent;
+}
+
+.box2-top {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box2-top.png") no-repeat scroll center top transparent;
+     margin: 15px auto 0px;
+     padding: 48px 0px 0px;
+     position: relative;
+     width: 731px;
+}
+
+.box2-middle {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box2-middle.png") repeat-y scroll center bottom transparent;
+     min-height: 50px;
+     overflow: hidden;
+     padding: 0px 68px;
+     text-align: left;
+     width: 595px;
+}
+
+.box2-bottom {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box2-bottom.png") no-repeat scroll center bottom transparent;
+     margin: 0px auto;
+     padding: 0px 0px 80px;
+     width: 731px;
+}
+
+.box3-middle {
+     background: url("/web/20140519004522/http://degondatrupe.com/img/bg-box2-middle.png") repeat-y scroll center bottom transparent;
+     min-height: 50px;
+     overflow: hidden;
+     padding: 0px 68px;
+     text-align: center;
+     width: 595px;
+}
