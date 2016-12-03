@@ -5,8 +5,7 @@
     The default.js file contains custom speed movements of the scroll and photo carousels for added glamour.
     The form at the bottom (wedding guest signup) should be linked to a database containing the required reservation fields.
 
-Happy coding future married couples!
-=======
+ Happy coding future married couples!
 
 # Details
 
